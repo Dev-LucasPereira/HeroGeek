@@ -43,6 +43,12 @@
 
 
 }
+.hero {
+    height: 400px;
+    background: red
+
+};
+
 @media (max-width:620px) {
     .container { flex-wrap: wrap;
     justify-content: center;}
