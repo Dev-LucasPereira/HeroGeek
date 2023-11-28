@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Inter&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Inter:wght@400;700&family=Poppins&display=swap');
 
 * {
     margin: 0;
@@ -11,20 +11,20 @@
     height: 100px;
     justify-content: center;
 
-
 }
 
-.container {
+.container-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1360px;
-    padding: 0 40px 0 40px;
+
 }
 
 .logo {
     width: 208px;
     height: 34px;
+    padding: 0 35px 0 35px;
 
 }
 
@@ -50,31 +50,34 @@
     background: linear-gradient(180deg, #101010 17.71%, #263BE2 92.19%);
 }
 
-.inv {
+.container-hero {
     width: 1140px;
-    padding: 0 20px 0 20px;
+    padding: 0 50px 0 50px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 25px;
     /* flex-direction: row-reverse; */
 
 }
 
-.text-hero{
+.text-hero {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 418px;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     gap: 20px;
 
 }
 
 
+.img-size {
+    max-width: 567px;
+   
+}
 .img-hero {
-    width: 567px;
-    height: 330px;
+    width: 100%;
 }
 
 .divulgation {
@@ -86,40 +89,64 @@
     padding-top: 10px;
 }
 
+.section-1 {
+    display: flex;
+    justify-content: center;
 
-@media (max-width:1024px) {
+}
 
-    .inv {
+.container-sec1 {
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+    padding: 60px 50px 60px 50px;
+    gap: 2rem;
+}
+
+.h11 {
+    text-align: center;
+
+}
+
+.p {
+    padding-bottom: 28px;
+}
+
+.p::first-letter {
+    font-size: 2rem;
+
+}
+
+.barra {
+    height: 5px;
+    background: linear-gradient(270deg, #001EFF 0%, #000 100%);
+}
+
+@media (max-width:700px) {
+
+    .container-hero {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-
-    .text-hero {
-        padding-top: 50px;
-        text-align: center;
-    }
-
-}
-
-@media (max-width:620px) {
-    .container {
+    .container-header {
         flex-wrap: wrap;
         justify-content: center;
         padding-top: 15px;
     }
 
-    .img-hero {
-        width: 300px;
-        height: 186px;
-    }
 
     .text-hero {
         padding-top: 50px;
-        width: 300px;
+       width: auto;
+       text-align: center;
+
 
     }
-
+    .menu {
+        gap: 25px;
+    }
 
 
 
