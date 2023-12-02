@@ -14,9 +14,9 @@
         <div class="container-header">
             <img src="Assets/img/herogeek.svg" alt="logo" class="logo"></img>
             <div class="menu">
-                <div class="hub">Descrição</div>
-                <div class="hub">Motivos</div>
-                <div class="hub">Comentários</div>
+                <div class="hub"><a href="#section-1">Descrição</a></div>
+                <div class="hub"><a href="#section-2">Motivos</a></div>
+                <div class="hub"><a href="#section-4">Comentários</a></div>
             </div>
         </div>
     </header>
@@ -43,7 +43,7 @@
         </div>
     </div>
 
-    <div class="section-1">
+    <div class="section-1" id="section-1">
         <div class="container-sec-1">
             <div class="h1">
                 <h1>Falando um pouco sobre o filme</h1>
@@ -85,7 +85,7 @@
         </div>
 
     </div>
-    <div class="section-2">
+    <div class="section-2" id="section-2">
         <div class="container-sec-2">
             <h1 class="h1">Os motivos que separamos:</h1>
             <div class="item-1">
@@ -155,14 +155,9 @@
             </div>
         </div>
     </div>
-    <div class="section-3">
+    <div class="section-3" id="section-3">
         <h1>Alguns dos personagem que estarão no filme:</h1>
         <div class="container-sec-3">
-           
-            <!-- <div>
-                <h1>Alguns dos personagem que estarão no filme:</h1></div> -->
-        <!-- <div class="container-sec4"> -->
-           
             <div class="img-sec3">
                 <img src="assets/img/Capitã Marvel.svg" alt="img-sec-3" class="img-size-3">
             </div>
@@ -181,15 +176,44 @@
             <div class="img-sec3">
                 <img src="assets/img/Maria Rambeau.svg" alt="img-sec-3" class="img-size-3">
             </div>
-        <!-- </div> -->
+        </div>
     </div>
+    <div class="section-4" id="section-4">
+        <div class="container-sec-4">
+            <h1>Deixe seu comentário</h1>
+
+            <div class="group-1">
+                <div class="input">
+                    <p>Nome:</p>
+                    <input type="text" id="nome" name="nome" placeholder="Nome">
+                </div>
+                <div class="input">
+                    <p>Sobrenome:</p>
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+                </div>
+                <div class="input">
+                    <p>Email:</p>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="group-2">
+                <div class="input-2">
+                    <p>Mensagem:</p>
+                    <textarea type="text" id="mensagem" name="nome" placeholder="Escreve seu comentário"></textarea>
+                </div>
+            </div>
+            <a class="button-enviar">
+                <div>Enviar</div>
+            </a>
+        </div>
     </div>
-
-
 
     <a href="#top" class="botton-fixed">
         <div class="arrow-icon"></div>
     </a>
+    <footer class="footer">
+        <div>Desenvolvido por Dev-LucasPereira</div>
+    </footer>
 </body>
 
 </html>
