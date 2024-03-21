@@ -45,7 +45,7 @@
     align-items: center;
     color: white;
     padding: 60px 0 60px 0;
-    background: linear-gradient(180deg, #101010 17.71%, #263BE2 92.19%);
+    background: linear-gradient(180deg, #101010 17.71%, #e026c4 100%);
 }
 
 .container-hero {
@@ -107,7 +107,7 @@
 
 .barra {
     height: 5px;
-    background: linear-gradient(270deg, #001EFF 0%, #101010 100%);
+    background: linear-gradient(270deg, #e026c4 100%, #101010 100%);
 }
 
 .section-2 {
@@ -140,7 +140,7 @@
     flex-direction: column;
     text-align: center;
     color: white;
-    background: linear-gradient(180deg, #101010 33.48%, #253AD8 100%);
+    background: linear-gradient(180deg, #101010 33.48%, #e026c4 100%);
 }
 
 .section-3 h1 {
@@ -223,7 +223,7 @@
     align-items: center;
     width: 200px;
     height: 48px;
-    background: linear-gradient(180deg, #101010 24.63%, #263CE0 100%);
+    background: linear-gradient(180deg, #101010 24.63%, #e026c4 100%);
     text-decoration: none;
     font-size: 20px;
     color: white;
@@ -232,7 +232,7 @@
 }
 
 .button-enviar:hover {
-    background: linear-gradient(180deg, #000 14.63%, #2032bb 100%);
+    background: linear-gradient(180deg, #000 14.63%, #e026c4 100%);
     transition: 0.8s;
 }
 
@@ -251,7 +251,7 @@
     width: 60px;
     height: 55px;
     border-radius: 10px;
-    background: linear-gradient(180deg, #101010 36.46%, #263CDE 100%);
+    background: linear-gradient(180deg, #101010 36.46%, #e026c4 100%);
     opacity: 0.6;
 }
 
@@ -275,7 +275,7 @@
     align-items: center;
     color: white;
     height: 95px;
-    background: linear-gradient(180deg, #263CE2 0%, #101010 56.77%);
+    background: linear-gradient(180deg, #e026c4 0%, #101010 56.77%);
 }
 
 @media (max-width:1067px) {
