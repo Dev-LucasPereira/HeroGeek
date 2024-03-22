@@ -25,3 +25,6 @@ A sessão 4 é voltada para o público leitor deixar o seu comentário, e opini�
 • HTML5
 
 • CSS3
+
+ <div align="center">Desenvolvido por Dev-LucasbmwSantos
+</div>
